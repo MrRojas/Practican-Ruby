@@ -1,5 +1,5 @@
 # Manejo de Arrays
-
+a = []
 
 
 a.push(32)

@@ -3,13 +3,13 @@
 puts "Ingresa tu Nombre"
 
 # lectura por teclado
-nombre = get.chomp
+nombre = gets.chomp
 
 # muestra en pantalla 
 puts "Ingresa tu Edad"
 
 # lectura por teclado
-edad = get.chomp.to_i 
+edad = gets.chomp.to_i 
 
 # muestra el valor de la variable nombre
 puts "Nombre = #{nombre}"

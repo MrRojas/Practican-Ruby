@@ -1,6 +1,6 @@
 # Formas de declarar un Array
 
-a = Array.new
+a = Array.new()
 
 a = []
 
