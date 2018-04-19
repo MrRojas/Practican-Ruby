@@ -51,3 +51,13 @@ saludar "Cerenis Cabrera"
 saludarNP "Armando" , "Rojas"
 
 # usango argumentos 
+
+def mensajes *argumentos
+
+	for sms in argumentos
+		puts sms  
+	end
+
+end 
+
+mensajes "Hola Armando" , "Alerta de Seguridad"
