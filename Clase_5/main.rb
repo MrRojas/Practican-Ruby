@@ -61,3 +61,28 @@ def mensajes *argumentos
 end 
 
 mensajes "Hola Armando" , "Alerta de Seguridad"
+
+# funciones con hash( similar a un diccionario de python)
+
+
+
+
+
+def saludamos argumentos
+
+	puts "tu nombre #{argumentos[:nombre]}"
+	puts "tu edad #{argumentos[:edad]}"
+end
+
+
+saludamos h = {'nombre':'Armando Rojas', 'edad':20}
+
+
+# retornar sin usar return 
+
+def restar a , b 
+
+	a - b 
+end 
+
+puts restar 5 , 4
