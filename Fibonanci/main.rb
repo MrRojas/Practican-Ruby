@@ -12,4 +12,4 @@ def fibo valor
 
 end
 
-puts fibo 4
+puts fibo (ARGV[0].to_i + 1)
